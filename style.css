@@ -1,0 +1,308 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* border:1px solid red; */
+}
+
+/* nav styles */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    padding:30px;
+    background-color:#D5D2D2;
+    align-items:center;
+}
+.items{
+    display:flex;
+    list-style: none;
+}
+.items .item{
+    font-size:30px;
+    margin-right:30px;
+}
+
+/* banner styles */
+.banner-container{
+    background-size:cover;
+    height:75vh;
+    background-image:url("./image/background.jpg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+ 
+    
+}
+
+.color-primary{
+    color:red;
+
+}
+.descripton{
+    font-size:25px;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+.title-banner{
+    font-size:60px;
+}
+.btn{
+    padding:20px 40px;
+    font-size:25px;
+    margin:10px;
+    background-color:pink;
+    border:none;
+    border-radius:10px;
+}
+
+.author-content{
+    display:flex;
+    /* justify-content:center; */
+    text-align:center;
+    /* padding:20px; */
+    gap:20px;
+    align-items:center;
+    margin-top:20px;
+    border-right:2px solid red;
+    padding-right:40px;
+
+
+}
+
+.service-content{
+   max-width:50%;
+}
+.author-detailes{
+    display:flex;
+    align-items:center;
+    /* gap:50px; */
+    
+
+
+}
+
+/* .author-detailes{
+    justify-content: center;
+    text-align: center;
+} */
+
+.title{
+    font-size:50px;
+}
+
+.description{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:22px;
+}
+.author-items{
+    font-size:22px;
+}
+
+.author-image{
+    height:90px;
+    width:90px;
+    border-radius:50%;
+}
+
+.more-detailes-btn{
+    border-left:1px solid black;
+}
+
+/* servie right sight */
+.serivece-section{
+     display:flex;
+    padding: 10px 10px;
+    /* gap:20px; */
+    justify-content:space-around;
+    /* margin-top:50px; */
+    color:white;
+    background-color:black;
+    align-items:center;
+    height:80vh;
+    width:100%;
+    
+
+}
+.top-two-web{
+    display:flex;
+    gap:10px;
+}
+.icon-image{
+    height:180px;
+    width:180px;
+}
+.first-web,.second-web{
+    background-color:white;
+    box-shadow:0 3px 10px rgb(0 0 0 / 0.2);
+    padding:60px;
+    margin:10px;
+    border-radius: 15px;
+}
+
+.serivece-web-contents{
+    max-width:60%;
+}
+
+/* appoinment-section */
+.appinment-section{
+    display:flex;
+    padding:70px;
+    justify-content:center;
+    gap:30px;
+    background-color:red;
+    width: 75%;
+    justify-content:center;
+    margin:0 auto;
+    border-radius:30px;
+    margin-top:-30px;
+    color:white;
+}
+
+.consaltation-part{
+    display:flex;
+    border-right:2px solid greenyellow;
+    border-spacing:0 20px;
+    align-items:center;
+    gap:20px;
+    padding:20px;
+   
+}
+.call-icon{
+    width:80px;
+    height:80px;
+}
+.call-description, .description-part, .make-appinment-part{
+    display:flex;
+    align-items:center;
+    text-align:center;
+    
+}
+
+/* .description-part{
+    display: flex;
+        align-items: center;
+        text-align: center;
+}
+
+.make-appinment-part{
+
+} */
+
+.appoinment-description{
+    font-size:22px;
+    
+}
+.appoinment-btn{
+    padding:5px 15px;
+    border-radius:15px;
+    background-color:pink;
+    font-size:20px;
+}
+
+/* blog styles */
+.blogs{
+    display:flex;
+    gap:100px;
+    justify-content:space-around;
+    padding:50px;
+    width:75%;
+    margin:0 auto;
+   
+    
+}
+
+.blog{
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    
+   
+}
+.blog-section{
+    height:50vh;
+}
+.blog-image{
+    background-size:cover;
+    width:100%;
+}
+.blog-section{
+    margin-top:30px;
+    padding:20px;
+}
+.blog-upperpart{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.blog-title{
+    font-size:60px;
+    text-align:center;
+}
+.blog-para{
+    font-size:20px;
+    text-align:center;
+    margin:0 auto;
+
+}
+.blogTitle{
+    font-size:25px;
+    font-weight:700;
+    text-align:center;
+}
+.blog-image{
+    
+    border-radius:10px;
+}
+
+/* footer section */
+.fotter-section{
+    background-color:black;
+    color:white;
+    padding:100px;
+    display: flex;
+    gap:100px;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+}
+.footericon-container .iconExtra{
+    height: 8px;
+    width:80px;
+}
+.footerDes{
+    font-size: 24px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.fparaTittle{
+    font-size:40px;
+    font-weight:700;
+}
+.fparaDesc{
+    font-size:30px;
+    margin-top: 30px;
+}
+.firstPara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-top: 30px;
+}
+hr{
+        height: 1px;
+        background-color:white;
+        border: none;
+}
+
+.copy{
+    color:white;
+    background-color:black;
+    height:20vh;
+}
+.copyright{
+    text-align: center;
+}
